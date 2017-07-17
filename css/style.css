@@ -238,23 +238,40 @@ html {
 @media(min-width: 200px) and (max-width: 769px) {
     .main {
         flex-direction: column;
+        height: auto;
     }
     .map {
         width: 100%;
-        height: 50%;
+        height: 250px;
     }
 
     .right {
         width: 100%;
     }
-    .socials {
-        margin-left: 10%;
-    }
-    .socials span {
-        margin-left: 15px;
-    }
+
     .triangle {
         display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .socials span:nth-child(1):before {
+        margin-left: 12%;
+    }
+    .socials span:nth-child(2):before {
+        margin-left: 20%;
+    }
+    .socials span:nth-child(3):before {
+        margin-left: 28%;
+    }
+    .socials span:nth-child(4):before {
+        margin-left: 36%;
     }
 }
 @media(min-width: 1600px) and (max-width: 1920px) {

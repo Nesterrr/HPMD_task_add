@@ -274,6 +274,7 @@ html {
         margin-left: 36%;
     }
 }
+
 @media(min-width: 1600px) and (max-width: 1920px) {
     html {
         font-size: 16px;
@@ -283,14 +284,14 @@ html {
     0% {
     }
     100% {
-        margin-top: -355px;
+        margin-top: -27.5%;
     }
 }
 @keyframes moveTriangleDown {
      0% {
      }
      100% {
-         margin-top: -270px;
+         margin-top: -20%;
      }
  }
 .change-city {
@@ -302,7 +303,7 @@ html {
     position: absolute;
 
     margin-left: -30px;
-    margin-top: -270px;
+    margin-top: -20%;
 
     content: " ";
 
@@ -314,7 +315,7 @@ html {
     position: absolute;
 
     margin-left: -30px;
-    margin-top: -270px;
+    margin-top: -20%;
 
     content: " ";
 
@@ -329,7 +330,7 @@ html {
     position: absolute;
 
     margin-left: -30px;
-    margin-top: -315px;
+    margin-top: -27.5%;
 
     content: " ";
 
